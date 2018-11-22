@@ -1,0 +1,71 @@
+.worksC .zp-content a,.designer .sjs-content a,.bw-content div a{ width: 100%; height: 100%; display: block; }
+/* 轮播部分开始 */
+.wenBanner { width: 100%; height: 4.2rem; overflow: hidden; position: relative; }
+.wenBanner .swiper-container .swiper-wrapper .swiper-slide{ width: 5.88rem; height: 3.6rem; text-align: center; display: flex; justify-content: center; align-items: center; margin-top: .26rem; }
+.wenBanner .swiper-container .swiper-wrapper .swiper-slide img{ width: 100%; height: 100%; }
+.swiper-container .swiper-wrapper .swiper-slide-prev,.swiper-container .swiper-wrapper .swiper-slide-next{ height: 3.2rem!important; }
+.swiper-container .swiper-wrapper .swiper-slide-prev img,.swiper-container .swiper-wrapper .swiper-slide-next img{ margin-top: 0.4rem; height: 3.2rem!important; }
+.wenBanner .swiper-pagination{ left: 50%; bottom: 0rem; margin-left: -.32rem; }
+
+/* 轮播部分结束 */
+/* 作品、设计师、设计院、博文内容公用部分开始 */
+.worksC,.designer,.designInstitute,.boWen,.volumeRoom{ width: 100%; height: 6.52rem; border-bottom: .1rem solid #f2f2f2; float: left; }
+.worksC .zp-content,.designer .sjs-content,.designInstitute .sjy-content,.boWen .bw-content,.volumeRoom .lf-content{ width: 5.88rem; height: auto; margin: 0 auto; }
+/* 作品、设计师、设计院、博文内容公用部分结束 */
+/* 作品内容开始 */
+.worksC .zp-content div{ width: 2.9rem; height: 3.2rem; float: left; }
+.worksC .zp-content div:nth-child(1),.worksC .zp-content div:nth-child(2){ margin-bottom: .12rem; }
+.worksC .zp-content div:nth-child(1),.worksC .zp-content div:nth-child(3){ margin-right: .08rem; }
+.worksC .zp-content div img{ width:100%; height: 1.88rem; display: block; }
+.worksC .zp-content div b{ width: 100%; color: #2f2f2f; font-size: .26rem; padding: .26rem 0 .18rem 0; float: left; }
+.worksC .zp-content div p{ color: #666; float: left; }
+.worksC .zp-content div p span{ font-size: .22rem; padding: 0 .1rem; float: right; }
+.worksC .zp-content div p span:first-child{ padding-left: 0; float: left; }
+/* 作品内容结束 */
+/* 设计师内容开始 */
+.designer{ height: 3.06rem; border: none; }
+.designer .sjs-content div{ width: 1.36rem; height: 1.36rem; float: left; margin: 0 .14rem .14rem 0; position: relative; }
+.designer .sjs-content div:nth-child(4),.designer .sjs-content div:nth-child(8){ margin-right: 0; }
+.designer .sjs-content div img{ width: 100%; height: 100%; }
+.designer .sjs-content div p{ width: 100%; height: .35rem; background: linear-gradient(to top, rgba(0,0,0,0.6) , rgba(0,0,0,0)); overflow: hidden; float: left; position: absolute; left: 0; bottom: 0; }
+.designer .sjs-content div p span{ color: #fff; font-size: .2rem; line-height: .35rem; padding: 0 .06rem; float: right; }
+.designer .sjs-content div p span:first-child{ float: left; }
+/* 设计师内容结束 */
+/* 设计院内容开始 */
+.designInstitute{ height: 2.3rem; }
+.designInstitute .sjy-content{ width: 6.14rem; overflow: hidden; margin-left: .26rem; }
+.designInstitute .sjy-content .designInstitute-ul{ width: 100%; float: left; }
+.designInstitute .sjy-content .designInstitute-ul li{ width: 2.86rem; float: left; margin-right: .14rem; }
+.designInstitute .sjy-content .designInstitute-ul li a{ width: 2.86rem; height: 2.3rem; float: left; }
+.designInstitute .sjy-content .designInstitute-ul li a>img{ width: 100%; height: 1.36rem; float: left; }
+.designInstitute .sjy-content .designInstitute-ul li a p{ width: 100%; color: #2f2f2f; font-size: .28rem; float: left; margin-top: .12rem; }
+.designInstitute .sjy-content .designInstitute-ul li a p img{ width: .42rem; hieght: .42rem; float: left; margin: 0 .05rem 0 0; }
+/* 设计院内容结束 */
+/* 博文内容开始 */
+.boWen{ height: 4.12rem; border: none; }
+.boWen .bw-content{ width: 6rem; margin-left: .25rem; }
+.bw-content div{ width: 100%; height: 1.56rem; margin-bottom: .5rem; }
+.bw-content div img{ width: 2.86rem; height: 1.56rem; border-radius: 2px; float: left; margin-right: .2rem; }
+.bw-content div p{ width: 2.9rem; color: #2f2f2f; font-size: .26rem; line-height: .35rem; font-weight: bold; float: left; }
+.bw-content div ul{ width: 2.6rem; float: left; margin-top: .18rem; }
+.bw-content div ul li{ width: 100%; color: #a9a9a9; font-size: .24rem; line-height: .4rem; float: left; }
+/* 博文内容结束 */
+/* 量房内容开始 */
+.volumeRoom{ border: none; }
+.volumeRoom .lf-content{ height: 8.96rem; }
+.volumeRoom .lf-content .liangul{ width: 100%; margin-bottom: .45rem; }
+.volumeRoom .lf-content .liangul li{ width: 100%; color: #b2b2b2; font-size: .24rem; text-align: center; padding-top: .15rem; }
+.volumeRoom .lf-content .liangul li:first-child{ color: #2f2f2f; font-size: .3rem; font-weight: bold; letter-spacing: .03rem; padding-top: .3rem; }
+.volumeRoom .lf-content input{ width: 90%; height: .98rem; color: #b2b2b2; font-size: .28rem; border-color: #ccc; border-radius: 0; padding: 0 .28rem; float: left; margin-bottom: .2rem;-webkit-appearance: none;appearance: none; }
+.volumeRoom .lf-content input::placeholder{ color: #b2b2b2; }
+.volumeRoom .lf-content button{ width: 100%; height: 1rem; color: #fff; font-size: .26rem; background: #262626; border: none; float: left; }
+.volumeRoom .lf-content p{ width: 100%; float: left; margin-top: .45rem; }
+.volumeRoom .lf-content p span{ width: 100%; color: #333; font-size: .32rem; line-height: .5rem; letter-spacing: .02rem; text-align: center; float: left; }
+.volumeRoom .lf-content div{ width: 100%; height: auto; float: left; margin-top: .3rem; }
+.volumeRoom .lf-content div img{ width: 1.8rem; height: 1.8rem; float: left; margin: 0 .28rem 0 .8rem; }
+.volumeRoom .lf-content div ul{ width: 2.7rem; float: left; }
+.volumeRoom .lf-content div ul li{ width: 100%; color: #666; font-size: 0.36rem; line-height: .5rem; letter-spacing: .02rem; float: left; }
+.volumeRoom .lf-content div ul li:first-child{ font-size: .32rem; line-height: .6rem; }
+/* 量房内容结束 */
+
+

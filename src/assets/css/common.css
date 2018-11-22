@@ -1,0 +1,140 @@
+﻿@charset "utf-8";
+/*公共重置样式 开始*/
+body { font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 12px; }
+a,body,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,i,input,li,ol,p,span,td,textarea,th,ul,img { margin: 0; padding: 0; border:0; }
+body{ background-color: #fff; }
+a { text-decoration: none; color: #333; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+a:focus { outline: 0; }
+a img { border:none; outline: none; }
+li { list-style: none}
+em,i { font-style: normal}
+/* 左浮动 */
+.left { float:left; }
+/* 右浮动 */
+.right{ float:right; }
+.fl { display: inline; float: left}
+.fr { display: inline; float: right}
+.relative { position: relative; }
+.clearfix:after { display: block; content: ""; clear: both}
+.clearfix { zoom: 1}
+input,select,textarea { font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 12px; color: #666; outline: 0; resize: none; padding: 0 8px; }
+
+input[type=week],input[type=number],input[type=email],input[type=url],input[type=search],input[type=tel],input[type=color],input[type=text],input[type=password],input[type=datetime],input[type=date],input[type=month],input[type=time],select,textarea { border: 1px solid #ccc; background: #fff}
+
+/*去除移动端灰色背景*/
+input{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+input[type=text],input[type=password] { padding: 0 8px; height: 28px; line-height: 28px; letter-spacing: 1px; border-radius: 3px; }
+
+/*公共重置样式 结束*/
+
+/*控制元素显隐及行内、块 开始*/
+
+.dis-block { display: block}
+.dis-none { display: none}
+.dis-il-block { display: inline-block; vertical-align: middle; }
+.dis-inline { display: inline-block}
+.visi-hidden { visibility: hidden}
+/*控制元素显隐及行内、块 结束*/
+
+/*控制文本对齐及大小、行高、加粗 开始*/
+.tx-fb { font-weight: bold}
+.tx-center { text-align: center}
+.tx-left { text-align: left}
+.tx-right { text-align: right}
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap}
+/*控制文本对齐及大小、行高、 结束*/
+
+/* 栅格系统 开始*/
+.col-md-12 { width: 100%}
+.col-md-11 { width: 91.66666667%}
+.col-md-10 { width: 83.33333333%}
+.col-md-9 { width: 75%}
+.col-md-8 { width: 66.66666667%}
+.col-md-7 { width: 58.33333333%}
+.col-md-6 { width: 50%}
+.col-md-5 { width: 41.66666667%}
+.col-md-4 { width: 33.33333333%}
+.col-md-3 { width: 25%}
+.col-md-2 { width: 16.66666666%}
+.col-md-1 { width: 8.33333333%}
+.col-md-1 ,.col-md-2,.col-md-3 ,.col-md-4,.col-md-5 ,.col-md-6,.col-md-7 ,.col-md-8,.col-md-9 ,.col-md-10,.col-md-11 ,.col-md-12{ float: left; }
+/* 栅格系统 结束*/
+*{ -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color:transparent; }
+/* 头部开始 旧 */
+/*header{ width: 100%; height: .89rem; border-bottom: 1px solid #dfdfdf; overflow: hidden; position: relative; }
+header .searcHz{ z-index: 100; width: 5.9rem; height: .89rem; background: #fff; position: absolute; left: -5rem; top: 0; transition: all .1s; display: none;}
+header .searcHz>a{ width: .9rem; height: .89rem; float: right; position: relative; }
+header .searcHz>a img{ width: .38rem; height: .37rem; position: absolute; left: 50%; top: 50%; margin-left: -.19rem; margin-top: -.16rem; }
+header .searcHz>input{ width: 4.8rem; height: 100%; color: #b2b2b2; font-size: 0.28rem; border: none; padding-right: 0; }
+::placeholder{ color: #b2b2b2; }
+header .wenHead{ height: .89rem; overflow: hidden; !*margin-left: 0.9rem;*! }
+header .wenHead .asty{ color: #2f2f2f; font-weight: bold; }
+.wenHead a{ width: auto; color: #b2b2b2; font-size: .3rem; line-height: .89rem; padding:0 .28rem; }*/
+/*.wenHead a:first-child{ padding-left: 0; }*/
+/* 头部结束 旧 */
+/* 头部开始 新*/
+header{ width: 100%; height: 1.59rem; position: relative; }
+header .headTop{ height: .86rem; display: flex; align-items: center; }
+header .headTop p{ padding: 0 .26rem 0 .14rem; }
+header .headTop p img{ width: 1.24rem; display: block; }
+// header .headTop .ipt{ width: 3.5rem; height: .6rem; position: relative; }
+header .headTop .ipt{ width: 4.5rem; height: .6rem; position: relative; }
+
+header .headTop .ipt img{ width: .35rem; height: .36rem; position: absolute; left: .14rem; top: .12rem; }
+header .headTop .ipt input{ width: 100%; height: 100%; color: #999; font-size: .24rem; border: none; background: #f4f4f4; box-sizing: border-box; padding-left: .63rem; }
+header .headTop .ipt .ipt-div{ width: 100%; height: 100%; color: #999; font-size: .24rem; border: none; background: #f4f4f4; box-sizing: border-box; padding-left: .63rem;line-height: .6rem;}
+header .headTop .sel{ width: 1.16rem; height: .6rem; display: flex; align-items: center; justify-content: center; }
+header .headTop .sel span{ color: #2f2f2f; font-size: .24rem; }
+header .headTop .sel img{ width: .21rem; height: .12rem; padding: .08rem 0 0 .08rem; }
+header .headBottom{ height: .72rem; border-bottom:1px solid #dfdfdf; }
+header .headBottom ul{ display: flex; }
+header .headBottom ul li{ color: #2f2f2f; font-size: .26rem; line-height: .72rem; text-align: center; flex: 1; position: relative; }
+header .headBottom ul li span{ width: .4rem; height: 0.04rem; background: #fff; position: absolute; left: 50%; bottom: -.01rem; margin-left: -.2rem; }
+/*header .headBottom ul .lis{ font-weight: bold; }
+header .headBottom ul .lis span{ background: #ce2222; }*/
+header .headBottom ul li.asty.router-link-active{font-weight: bold; }
+header .headBottom ul li.asty.router-link-active span{ background: #ce2222; }
+header .cityMask{ width: 100%; height: 100%; overflow: hidden; position: fixed; right: 0; top: 0; background: rgba(0,0,0,0.3); z-index: 2000; transition: all .06s; display: none; }
+header .closeMask{ width: 0; height: 0; }
+header .xsMask{ display: block; }
+header .cityMask .cityC{ width: 5rem; height: 4.5rem; border-radius: .1rem; background: #fff; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; }
+header .cityMask .cityC .cityCt{ width: 4rem; margin: .2rem auto; }
+header .cityMask .cityC .cityCt p{ width: 100%; font-size: .24rem; line-height: .5rem; text-align: center; border-bottom: 1px solid #dfdfdf; }
+header .cityMask .cityC .cityCt ul{ margin-top: .36rem; }
+header .cityMask .cityC .cityCt ul li{ width: 23%; height: .4rem; line-height: .4rem; text-align: center; border-radius: .05rem; background: #f5f5f5; float: left; margin: 1%; }
+header .cityMask .cityC .cityCt ul .lis{ color: #fff; background: #ce2222; }
+header .cityMask .cityC .cityCb{ width: 100%; height: .8rem; color: #ce2222; font-size: .28rem; line-height: .8rem; text-align: center; letter-spacing: .1rem; border-top: 1px solid #dfdfdf; position: absolute; left: 0; bottom: 0; }
+/* 头部结束 新*/
+/* 公用标题开始 */
+.public-title{ width: 100%; height: 1.1rem; }
+.public-title ul{ width: 5.88rem; height: 100%; margin: 0 auto; }
+.public-title ul li a{ color: #b2b2b2; font-size: .24rem; line-height: 1.1rem; float: right; }
+.public-title ul li:first-child a{ color: #2f2f2f; font-size: .32rem; font-weight: bold; float: left; }
+/* 公用标题结束 */
+
+/* 底部开始 */
+footer{ width: 100%; height: 1.2rem; color: #999; font-size: .18rem; border-top: .1rem solid #f2f2f2; display: flex; flex-direction: column; justify-content: flex-center; align-items: center; margin-top: .1rem; }
+footer img{ width: 3.04rem; height: .31rem; margin: .25rem 0 .2rem 0; }
+.footer.footer-fixed{position: fixed;bottom: 0;left: 0;width: 100%;z-index: 1;}
+/* 底部结束 */
+
+/*没有数据时的展示 开始*/
+.nomore-div{text-align: center;color: #333;line-height: .5rem;font-size: .26rem;}
+.nodata-div img{width: 70%;display: block;margin: 0 auto .3rem;}
+/*没有数据时的展示 结束*/
+
+.loading-box{
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url(../images/common/5-121204193935-51.gif) no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mb83{margin-bottom: .83rem;}

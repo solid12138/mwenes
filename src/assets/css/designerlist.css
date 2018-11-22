@@ -1,0 +1,35 @@
+/* body */
+.ovhi{ overflow: hidden; }
+.sjsC div a{ width:100%; height: 100%; display: block; }
+/* 分类开始 */
+.classification{ width: 100%; height: .8rem; }
+.classification .fl-content{ width: 100%; height: .8rem; display: flex; }
+.classification .fl-content .flul{ width: 100%; display: flex;}
+.classification .fl-content .flul li{ font-size: .28rem; border-left: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf; flex: 1; position: relative; }
+.classification .fl-content .flul li:first-child{ border-left: none; }
+.classification .fl-content .flul li a{ width: 75%; height: .8rem; color: #2f2f2f; line-height: .8rem; float: left; padding-left: 25%; }
+.classification .fl-content .flul .listy a{ color: #ce2222; }
+.classification .fl-content .flul li span{ width: 0; height: 0; border-style: solid; border-width: .08rem; border-color: #2f2f2f transparent transparent transparent; position: absolute; right: .35rem; top: 50%; margin-top: -.04rem; }
+.classification .fl-content .flul .listy span{ border-color: #ce2222 transparent transparent transparent; }
+.classification .fl-content .flul .listy{ border-bottom-color: #fff; }
+.classification .fl-content .lxC{ width: 100%; height: 100vh; background: rgba(0,0,0,0.2); position: absolute; left: 0; top: 2.4rem; }
+.classification .fl-content .lxC ul{ width: auto; background: #fff; padding: .24rem .2rem .46rem; float: left; margin: 0 auto; }
+.classification .fl-content .lxC ul li{ min-width: .96rem; height: .52rem; font-size: .28rem; line-height: .52rem; border: 1px solid #f5f5f5; border-radius: .05rem; background: #f5f5f5; text-align: center; padding: 0 .2rem; float: left; margin: .05rem; }
+.classification .fl-content .lxC ul .listy2{ color: #ce2222; border-color: #ce2222; background: #fff; }
+.classification .fl-content .flul .color a{color: #ce2222; }
+.classification .fl-content .flul .biankuang{ border-bottom: none;}
+
+.classification .fl-content .flul .color span{border-color: #ce2222 transparent transparent transparent;}
+.xiaoshi{border-bottom: #fff}
+/* 分类结束 */
+/* 设计师内容开始 */
+.sjsC{ width: 100%; }
+.sjsC div{ width: 100%; height: 2rem; border-bottom: 1px solid #dfdfdf; }
+.sjsC div:last-child{ border: none; }
+.sjsC div a>img{ width: 1.26rem; height: 1.6rem; float: left; margin: .2rem .26rem 0; }
+.sjsC div a ul{ width: 4.2rem; float: left; margin-top: .2rem; }
+.sjsC div a ul li{ width: 100%; color: #666; font-size: .24rem; line-height: .4rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; }
+.sjsC div a ul li span{ line-height: .4rem; padding: 0 .18rem; }
+.sjsC div a ul li:first-child{ color: #2f2f2f; font-size: .32rem; padding-bottom: .1rem; }
+.sjsC div a ul li span:first-child{ padding-left: 0; }
+/* 设计师内容结束 */

@@ -1,0 +1,572 @@
+/* banner start */
+.banner{
+  width: 100%;
+  height: 3.1rem;
+  position: relative;
+}
+.banner .swiper-slide{
+  width: 100%;
+  height: 3.1rem;
+}
+.banner .swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+
+/* banner end */
+/* 类型start */
+.type{
+  width: 6rem;
+  height: 2.26rem;
+  margin: 0 .2rem;
+  display: flex;
+  align-items: center;
+}
+.type dl{
+  flex: 1;
+}
+.type dl dt{
+  display: flex;
+  justify-content: center;
+}
+.type dl dt img{
+  width: .8rem;
+  height: .8rem;
+  display: block;
+}
+.type dl dd{
+  color: #666;
+  font-size: .24rem;
+  text-align: center;
+  padding-top: .1rem;
+}
+/* 类型end */
+/* 设计好服务start */
+.service{
+  height: 2.55rem;
+  border-top: 0.1rem solid #f5f5f5;
+}
+.service>p{
+  color: #2f2f2f;
+  font-size: .3rem;
+  line-height: .88rem;
+  padding-left: .24rem;
+  padding-top: .1rem;
+}
+.service .swiper-slide{
+  width: 2.6rem!important;
+  height: 1.1rem;
+  text-align: center;
+  background: url(../images/home/service_img1.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin-left: 0.2rem;
+}
+.service .swiper-slide:nth-child(even){
+  background: url(../images/home/service_img2.jpg) no-repeat;
+}
+.service .swiper-slide span{
+  color: #587cc5;
+  font-size: .3rem;
+  line-height: .5rem;
+  display: block;
+  padding-top: .1rem;
+}
+.service .swiper-slide p{
+  color: #2f2f2f;
+  font-size: .2rem;
+}
+.service .swiper-slide:nth-child(even) span{
+  color: #df885b;
+}
+.service .swiper-slide:first-child{
+  margin-left: 0.24rem;
+}
+.service .swiper-slide:last-child{
+  margin-right: 0.24rem;
+}
+/* 设计好服务end */
+/* 设计案例start */
+.case{
+  height: 5rem;
+  border-top: 0.1rem solid #f5f5f5;
+}
+.case .caseType,.designer .sjsType{
+  height: .74rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .3rem;
+}
+.case .caseType li,.designer .sjsType li{
+  min-width: 1rem;
+  height: .69rem;
+  color: #666;
+  font-size: .26rem;
+  line-height: .69rem;
+  text-align: center;
+  border-bottom: .05rem solid #fff;
+  margin: 0 .46rem;
+}
+.case .caseType .lis,.designer .sjsType .lis{
+  color: #ce2222;
+  font-weight: bold;
+  border-bottom: .05rem solid #ce2222;
+}
+.caseC .swiper-slide{
+  width: 2.5rem;
+  margin-right: .2rem;
+}
+.caseC .swiper-slide:first-child{
+  margin-left: .24rem;
+}
+.caseC .swiper-slide:last-child{
+  margin-right: .24rem;
+}
+.caseC .swiper-slide img{
+  width: 100%;
+  height: 1.4rem;
+  border-radius: .08rem;
+  display: block;
+}
+.caseC .swiper-slide>span{
+  color: #2f2f2f;
+  font-size: .24rem;
+  padding-top: .28rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.caseC .swiper-slide p,.caseC .swiper-slide p span{
+  color: #666;
+  font-size: .22rem;
+  padding-top: .1rem;
+}
+/* 设计案例end */
+/* 估价start */
+.estimate{
+  height: 6.25rem;
+  border-top: 0.1rem solid #f5f5f5;
+}
+.estimate .title{
+  height: .9rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.estimate .title p{
+  color: #292929;
+  font-size: .26rem;
+}
+.estimate .title span{
+  width: .6rem;
+  height: .02rem;
+  background: #c7c7c7;
+  margin: 0 .32rem;
+}
+.estimate .estimateC{
+  width: 5.9rem;
+  margin: 0 auto;
+  position: relative;
+}
+.estimate .estimateC>img{
+  width: 5.88rem;
+  height: .88rem;
+  display: block;
+  margin: 0 auto;
+}
+.estimateC .citys,.estimateC .pfmeter{
+  width: 2.85rem;
+  height: .64rem;
+  border: .02rem solid #d8d8d8;
+  border-radius: .08rem;
+  float: left;
+  margin-top: .38rem;
+}
+.estimateC .citys,.estimateC .industry{
+  position: relative;
+}
+.estimateC .industry{
+  width: 100%;
+  height: .66rem;
+  border-radius: .08rem;
+  border: .02rem solid #d8d8d8;
+  box-sizing: border-box;
+  float: left;
+  margin: .16rem 0;
+}
+.estimateC .citys span,.estimateC .industry span{
+  color: #2e2e2e;
+  font-size: .2rem;
+  line-height: .64rem;
+  padding: 0 .14rem;
+}
+.estimateC .citys img,.estimateC .industry img{
+  width: .1rem;
+  height: .2rem;
+  transition: all .04s;
+  position: absolute;
+  right: .2rem;
+  top: 50%;
+  margin-top: -.1rem;
+}
+.estimateC .citys .imgs,.estimateC .industry .imgs{
+  transform: rotate(90deg);
+}
+.estimateC .pfmeter{
+  float: right;
+}
+.estimateC .pfmeter input{
+  width: 2.2rem;
+  height: .64rem;
+  font-size: .2rem;
+  box-sizing: border-box;
+  border: none;
+  padding-right: 0;
+  float: left;
+}
+.estimateC .pfmeter span{
+  width: .64rem;
+  height: .64rem;
+  color: #2e2e2e;
+  font-size: .24rem;
+  line-height: .64rem;
+  text-align: center;
+  float: left;
+}
+.estimateC>input{
+  width: 100%;
+  height: .66rem;
+  color: #2e2e2e;
+  font-size: .2rem;
+  border-radius: .08rem;
+  border-color: #d8d8d8;
+  border-width: .02rem;
+  box-sizing: border-box;
+  -webkit-appearance: none;appearance: none;
+}
+.estimateC>button{
+  width: 100%;
+  height: .82rem;
+  color: #fff;
+  font-size: .3rem;
+  background: #ce2222;
+  border-radius: .08rem;
+  border: none;
+  outline: none;
+  margin-top: .3rem;
+}
+/* 估价end */
+/* 设计师start */
+.designer{
+  height: 4.73rem;
+  border-top: 0.1rem solid #f5f5f5;
+}
+.sjsC .swiper-slide{
+  width: 1.84rem;
+  height: 2.2rem;
+  margin: 0 .1rem;
+  position: relative;
+}
+.sjsC .swiper-slide:first-child{
+  margin-left: .15rem;
+}
+.sjsC .swiper-slide:last-child{
+  margin-right: .15rem;
+}
+.sjsC .swiper-slide img{
+  width: 1.84rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sjsC .swiper-slide>p{
+  width: .4rem;
+  height: .36rem;
+  color: #fff;
+  font-size: .18rem;
+  line-height: .3rem;
+  text-align: center;
+  background: url("../images/home/label_icon.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: .1rem;
+  top: 0;
+  z-index: 100;
+}
+.sjsC .swiper-slide div{
+  width: 100%;
+  height: 60%;
+  color: #fff;
+  font-size: .2rem;
+  background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.8));
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.sjsC .swiper-slide div p{
+  line-height: .3rem;
+  padding-left: .14rem;
+}
+.sjsC .swiper-slide div p:first-child{
+  padding-top: .6rem;
+}
+/* 设计师end */
+/* 设计有保证start */
+.ensure{
+  height: 2.96rem;
+  border-top: .1rem solid #f5f5f5;
+}
+.ensure p{
+  color: #2f2f2f;
+  font-size: .3rem;
+  line-height: .88rem;
+  padding-left: .24rem;
+  padding-top: .1rem;
+}
+.ensure div{
+  display: flex;
+  justify-content: center;
+}
+.ensure dl{
+  width: 2.8rem;
+  height: 1.8rem;
+  text-align: center;
+}
+.ensure dl dt img{
+  width: 2.55rem;
+  height: .52rem;
+  padding: .3rem 0;
+}
+.ensure dl:last-child dt img{
+  width: 1.8rem;
+  height: .52rem;
+}
+.ensure dl dd{
+  color: #999;
+  font-size: .26rem;
+  padding-right: .2rem;
+}
+/* 设计有保证end */
+/* 设计院start */
+.sjCourtyard{
+  height: 4.34rem;
+  border-top: 0.1rem solid #f5f5f5;
+}
+.sjyC{
+  overflow: hidden;
+}
+.sjyC .swiper-slide{
+  width: 1.82rem;
+  height: 2.68rem;
+}
+/* 设计院end */
+/*博文样式start*/
+.study{
+  height: 5.1rem;
+  border-top: .1rem solid #f5f5f5;
+}
+.article-list{
+  padding: .2rem .24rem 0;
+}
+.article-item{
+  margin-bottom: .32rem;
+}
+.article-item a{
+  display: block;
+}
+.article-img{
+  width: 2.86rem;
+  height: 1.72rem;
+  display: block
+}
+.article-con{
+  margin-left: 3.04rem;
+  display: block;
+}
+.article-con h4{
+  color: #2f2f2f;
+  font-size: .26rem;
+  line-height: .38rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.article-style{
+  color: #a9a9a9;
+  font-size: .24rem;
+  line-height: .24rem;
+  margin-top: .22rem;
+}
+.article-time{
+  color: #a9a9a9;
+  font-size: .24rem;
+  line-height: .24rem;
+}
+.article-read img{
+  width: .28rem;
+  margin-right: .06rem;
+}
+/*博文样式end*/
+
+/*设计院样式start*/
+.sjyC .swiper-slide{
+  width: 1.82rem;
+  height: 2.68rem;
+}
+.sjyC{
+  overflow: hidden;
+  margin-left: .24rem;
+}
+.designInstitute-list{
+  padding: .2rem 0 .48rem;
+}
+.designInstitute-item{
+  width: 1.82rem;
+  height: 2.68rem;
+  text-align: center;
+  border:1px solid #f5f5f5;
+  box-shadow: 0 0.02rem 0.05rem 0 rgba(0,0,0,.03), 0 0.02rem 0.1rem 0 rgba(0,0,0,.03);
+  margin-right: .2rem;
+}
+.designInstitute-icon{
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  border:1px solid #d2d2d2;
+  display: block;
+  margin: .28rem auto 0;
+}
+.designInstitute-name{
+  color: #2f2f2f;
+  font-size: .26rem;
+  line-height: .45rem;
+  text-align: center;
+  margin-top: .16rem;
+  height: .45rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.designInstitute-num{
+  color: #999;
+  font-size: .2rem;
+  line-height: .28rem;
+  text-align: center;
+}
+.designInstitute-num span{
+  color:#ce2222;
+}
+.designInstitute-look{
+  height: .34rem;
+  color:#ce2222;
+  font-size: .2rem;
+  padding: 0 .2rem;
+  line-height: .34rem;
+  border:1px solid #ce2222;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: .16rem;
+}
+/*设计院样式end*/
+
+/* 弹框start */
+.mask{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2000;
+}
+.tFrame{
+  width: 4.6rem;
+  height: 5.2rem;
+  background: #fff;
+  border-radius: .2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.tFrame .close{
+  width: .52rem;
+  height: .52rem;
+  background: #b2b2b2;
+  border-radius: 100%;
+  position: absolute;
+  right: -.2rem;
+  top: -.15rem;
+}
+.tFrame .close img{
+  width: .24rem;
+  height: .24rem;
+  display: block;
+  padding: .14rem;
+}
+.tFrame .tkTop{
+  width: 4rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.tFrame .tkTop p{
+  font-size: .24rem;
+  line-height: .58rem;
+}
+.tFrame .tkTop p:first-child{
+  font-size: .3rem;
+  padding-top: .6rem;
+}
+.tFrame .tkTop p:nth-child(2){
+  color: #ce2222;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: .3rem;
+}
+.tFrame .tkTop p:nth-child(2) span{
+  font-size: .32rem;
+  font-weight: bold;
+  padding: 0 .16rem;
+}
+.tFrame .tkTop p:nth-child(3){
+  padding-top: .3rem;
+}
+.tFrame .tkTop p:last-child{
+}
+.tFrame .tkBottom{
+  width: 100%;
+  height: 1rem;
+  background: #ebebeb;
+  border-bottom-left-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.tFrame .tkBottom p{
+  color: #888888;
+  font-size: .18rem;
+  line-height: .35rem;
+  padding-left: .26rem;
+}
+.tFrame .tkBottom p:first-child{
+  padding-top: .18rem;
+}
+/* 弹框end */
+
+/* 公用标题开始 */
+.public-titleNew{ padding: .46rem .24rem .17rem; vertical-align: bottom; }
+.public-titleNew h3{ font-size: .36rem; font-weight: bold; color: #2f2f2f; line-height: .36rem; }
+.public-titleNew span{ font-size: .24rem; line-height: .24rem; margin-top: .1rem; margin-left: .22rem; color: #999; }
+.more-a{ font-size: .24rem; color: #999; margin-top: .1rem; line-height: .24rem; }
+.more-a img{ width: .13rem; margin-left: .08rem; vertical-align: -0.01rem; }
+/* 公用标题结束 */
+
+.city-div{position: absolute;left: 0;top:2rem;width: 100%;background: #fff;border:1px solid #d8d8d8;padding: .1rem 0 0 .14rem;box-sizing: border-box;}
+.industry-div{position: absolute;left: 0;top:2.84rem;width: 100%;background: #fff;border:1px solid #d8d8d8;padding: .1rem 0 0 .14rem;box-sizing: border-box;}
+.city-div li,.industry-div li{float: left;margin-right: .1rem;width: .99rem;height: .4rem;line-height: .38rem;text-align: center;border:1px solid #d8d8d8;margin-bottom: .1rem;border-radius: 5px;font-size: .2rem;cursor: pointer;}
+.city-div li.current,.industry-div li.current{border-color: #ce2222;color: #ce2222;}
+

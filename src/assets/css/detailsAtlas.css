@@ -1,0 +1,26 @@
+/* body */
+.ovhi{ overflow: hidden; }
+/* 返回图集start */
+.returnTj{ width: 100%; height: 0.68rem; }
+.returnTj a{ width: 0.68rem; height: 0.68rem; float: left; }
+.returnTj a img{ width: 0.16rem; height: 0.3rem; margin: 0.19rem 0.26rem; }
+/* 返回图集end */
+/* 基本信息start */
+.designerlist{ width: 100%; }
+.designerlist .tjxq-content{ width: 6.08rem; margin: 0 auto; }
+.designerlist .tjxq-content .essentialInformation{ width: 100%; height: 1.66rem; color: #999; font-size: 0.26rem; text-align: center; }
+.designerlist .tjxq-content .essentialInformation p{ width: 100%; color: #2f2f2f; font-size: 0.32rem; padding: 0.1rem 0; }
+.designerlist .tjxq-content .essentialInformation span{ width: 100%; padding-bottom: 0.16rem; display: block; }
+.designerlist .tjxq-content .essentialInformation ul{ width: 100%; display: flex; justify-content: space-around; }
+/* 基本信息end */
+/* 内容start */
+.tjxqC{ width: 100%; }
+.tjxqC>div{ width: 100%; background: #fafafa; border-radius: 0.15rem; margin-bottom: 0.24rem; }
+.tjxqC div .my-gallery,.tjxqC div .my-gallery a{ width: 100%; display:block; }
+.tjxqC div .my-gallery,.tjxqC div .my-gallery a{ height: 4.18rem; }
+figure{ width: 100%; height: 4.18rem; margin: 0; padding:0; list-style: none; }
+.tjxqC div .my-gallery a img{ width:100%; height: 100%; display: block; border-top-left-radius: 0.15rem; border-top-right-radius: 0.15rem; }
+.tjxqC div p{ width: 100%; line-height: 0.8rem; }
+.tjxqC div p span{ color: #aaaaaa; font-size: 0.26rem; padding: 0 0.24rem; float: right; }
+.tjxqC div p span:first-child{ color: #2f2f2f; float: left; }
+/* 内容end */

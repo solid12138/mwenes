@@ -1,0 +1,124 @@
+/*
+* @Author: Marte
+* @Date:   2018-08-21 09:29:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-10-19 10:02:05
+*/
+body .mr-none { margin-right: 0px; }
+html,
+body { height: 100%; }
+/* 顶部状态栏 */
+.header { width: 100%; height: 0.6rem; background-color: #fff; }
+.logo { width: 1.58rem; height: 0.37rem; margin-left: 0.2rem; margin-top: 0.12rem; }
+.logo img { display: block; width: 100%; height: 100%; }
+.phone { margin-top: 0.15rem; margin-right: 0.16rem; }
+.phone i { display: inline-block; width: 0.24rem; height: 0.24rem; /*background: url(../images/phone.png) no-repeat;*/ background-size: cover; margin-right: 0.03rem; }
+.phone span { font-size: 0.34rem; color: #121212; line-height: 0.34rem; }
+
+/* banner */
+.train-banner { }
+.train-banner img { display: block; width: 100%; }
+
+/* 报名表单 */
+.advisory { background-color: #ffd641; padding-top: 0.2rem; text-align: center; padding-bottom: 0.35rem; }
+.advisory h3 { position: relative; }
+.advisory span { font-size: 0.26rem; color: #000000; line-height: 0.26rem; }
+.advisory i { display: block; width: 0.56rem; height: 0.02rem; background-color: #000; position: absolute; top: 0.16rem; }
+.advisory h3 b { color: #ce2222; font-weight: 700; }
+.advisory .l { left: 0.6rem; }
+.advisory .r { right: 0.6rem; }
+.advisory h4 { font-size: 0.36rem; color: #333333; line-height: 0.36rem; margin-top: 0.1rem; letter-spacing: 0.04rem; margin-bottom: 0.22rem; }
+.advisory h4 b { color: #ce2222; font-weight: 400; }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #aaa; }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #aaa; }
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #aaa; }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #aaa; }
+body .mb16 { margin-bottom: 0.16rem; }
+.input-boxitem { width: 4.95rem; height: 0.65rem; background-color: #fff; padding-left: 0.17rem; box-sizing: border-box; border-radius: 4px; margin-bottom: 0.16rem; border: 1px solid #c6c4bc; margin: 0 auto; }
+.input-boxitem p { line-height: 0.65rem; font-size: 0.2rem; color: #333333; }
+.input-boxitem input { height: 100%; width: 70%; border: none; font-size: 0.18rem; }
+body .colred { color: #e70012; }
+.input-boxitem .phone-input { width: 64%; }
+
+body .mb30 { margin-bottom: 0.3rem; }
+.obtain { display: block; width: 4.95rem; height: 0.7rem; line-height: 0.7rem; font-size: 0.26rem; border-radius: 4px; background-color: #ce2222; text-align: center; color: #fff; margin: 0 auto; }
+.speaker-box { width: 4.95rem; margin: 0 auto; margin-top: 0.16rem; }
+.speaker-box .swiper-container2 { height: 0.28rem; overflow: hidden; }
+.speaker-box .swiper-container3 { height: 0.28rem; overflow: hidden; }
+.speaker-box .swiper-slide { }
+.speaker-box .swiper-slide>img { display: inline-block; width: 0.32rem; height: 0.28rem; vertical-align: -0.05rem; margin-right: 0.24rem; }
+.speaker-box .swiper-slide span { font-size: 0.2rem; color: #111111; line-height: 0.2rem; }
+body .mr75 { margin-right: 0.75rem; }
+
+/* 报价部分 */
+.price-title img { display: block; width: 100%; }
+.price-con img { display: block; width: 100%; }
+
+/* 空间案例 */
+.space-title img { display: block; width: 100%; }
+.classic-title img { display: block; width: 100%; }
+.space-case-box { margin-top: 0.25rem; margin-left: 0.25rem; }
+.space-item { display: block; width: 2.9rem; margin-bottom: 0.1rem; margin-right: 0.1rem; }
+.space-img { width: 2.9rem; height: 1.9rem; }
+.space-img img { display: block; width: 100%; height: 100%; }
+.space-text { padding-top: 0.3rem; /* text-align: center; */
+    padding-bottom: 0.26rem; }
+.space-text h5 { font-size: 0.26rem; color: #2f2f2f; font-weight: 700; line-height: 0.28rem; margin-bottom: 0.25rem; letter-spacing: 0.01rem;overflow:hidden;text-overflow: ellipsis;white-space: nowrap; height: 0.28rem; }
+.space-text p { }
+.space-text span { font-size: 0.22rem; color: #707070; line-height: 0.22rem; /* vertical-align: 0.02rem; */}
+.space-text .span-one { letter-spacing: 0.02rem; }
+.space-text i { font-size: 0.22rem; color: #979797; line-height: 0.22rem; vertical-align: 0.02rem; }
+
+/* 工期模块 */
+.duration { }
+.duration img { display: block; width: 100%; }
+
+/* 底部报名表单 */
+.bottom-input { padding-top: 0.48rem; padding-bottom: 0.3rem; }
+
+/* 底部介绍 */
+.present img { display: block; width: 100%; margin-bottom: 0.89rem; }
+
+/* 底部悬浮 */
+.obtain-btn { display: block; position: fixed; left: 0; bottom: 0; z-index: 9; }
+.obtain-btn img { display: block; width: 100%; }
+
+/* 空间类型 */
+
+
+/* body */
+.ovhi{ overflow: hidden; }
+
+/* 分类开始 */
+.classification{ width: 100%; height: .8rem; }
+.classification .fl-content{ width: 100%; height: .8rem; display: flex; }
+.classification .fl-content ul{ width: 100%; display: flex; }
+.classification .fl-content ul li{ font-size: .28rem; border-left: .01rem solid #dfdfdf; border-bottom: 1px solid #dfdfdf; flex: 1; position: relative;}
+.classification .fl-content ul li:first-child{ border-left: none; }
+.classification .fl-content ul li a{ width: 95%; height: .8rem; color: #2f2f2f; line-height: .8rem; float: left; padding-left: 5%; }
+.classification .fl-content ul .listy a{ color: #ce2222; }
+.classification .fl-content ul li span{ display: block; width: 0; height: 0; border-style: solid; border-width: .08rem; border-color: #2f2f2f transparent transparent transparent; position: absolute; right: .35rem; top: 50%; margin-top: -.04rem; }
+.classification .fl-content ul .listy span{ border-color: #ce2222 transparent transparent transparent; }
+.classification .fl-content ul .listy{ border-bottom-color: #fff; }
+.classification .fl-content .lxC{ width: 100%; height: 100vh; background: rgba(0,0,0,0.2); position: absolute; left: 0; top: 2.4rem; display: block; }
+.classification .fl-content .lxC ul{ width: auto; background: #fff; padding: .24rem .2rem .46rem; float: left; margin: 0 auto; display: block; }
+.classification .fl-content .lxC ul li{ min-width: .96rem; height: .52rem; line-height: .52rem; border: 1px solid #f5f5f5; border-radius: .05rem; background: #f5f5f5; text-align: center; padding: 0 .2rem; float: left; margin: .05rem; }
+.classification .fl-content .lxC ul .listy2{ color: #ce2222; border-color: #ce2222; background: #fff; }
+/* 分类结束 */
+
+.loding-box{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.loding-box i{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    background: url(../images/common/5-121204193935-51.gif) no-repeat;
+    background-size: contain;
+}

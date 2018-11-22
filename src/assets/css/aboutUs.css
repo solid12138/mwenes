@@ -1,0 +1,11 @@
+.aboutUs{ width: 100%; float: left; }
+.aboutUs .gywmC{ width: 5.88rem; margin: 0 auto; }
+.aboutUs .gywmC>img{ width: 100%; padding: 0.26rem 0; }
+.aboutUs .gywmC>p{ color: #666; font-size: 0.24rem; line-height: 0.36rem; padding: 0.1rem 0; }
+.aboutUs .gywmC ul{ width: 2.89rem; height: 1.6rem; text-align: center; float: left; margin-top: 0.6rem; }
+.aboutUs .gywmC ul:last-child{ margin-bottom: 0.5rem; }
+.aboutUs .gywmC ul li:first-child{ padding: 0.2rem 0 0.1rem 0; }
+.aboutUs .gywmC .ulbr{ border-left: 0.01rem solid #ccc; }
+.aboutUs .gywmC ul li:first-child p{ color: #2f2f2f; font-size: 0.8rem; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; position: relative; }
+.aboutUs .gywmC ul li:first-child p span{ color: #999; font-size: 0.24rem; padding-left: 0.05rem; position: absolute; top: 0.1rem; }
+.aboutUs .gywmC ul li:last-child{ color: #666; font-size: 0.26rem; }

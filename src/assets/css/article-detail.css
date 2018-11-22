@@ -1,0 +1,44 @@
+/*
+* @Author: ZJH
+* @Date:   2018-10-17 15:55:16
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-10-19 09:54:34
+*/
+/* 顶部返回 */
+.top-back{ display: block; width: 100%; height: 0.69rem; background-color: #fff; padding: 0.2rem 0rem 0.2rem 0.27rem; box-sizing: border-box; position: fixed; top: 0; left: 0; z-index: 999; }
+.back-click{ display: block; width: 0.16rem; height: 0.29rem; background: url(../images/common/return_ico.png) no-repeat; background-size: contain; }
+
+/* 博文内容 */
+.atricle-con{ padding-top: 0.69rem; }
+.atricl-top h3{ font-size: 0.4rem; color: #2f2f2f; line-height: 0.54rem; padding-left: 0.28rem; box-sizing: border-box;  margin-top: .17rem;}
+.avatar-box{ padding: 0rem 0.26rem 0rem 0.26rem; margin-top: 0.29rem; }
+.avatar-box .fl{ }
+.avatar-img{ width: 0.46rem; height: 0.46rem; border-radius: 50%; overflow: hidden; margin-right: 0.1rem; }
+.avatar-img img{ display: block; width: 100%; height: 100%; }
+.avatar-box .fl span{ line-height: 0.46rem; font-size: 0.28rem; color: #666666; }
+.avatar-box .fr{ }
+.home-click{ display: block; width: 1.2rem; height: 0.46rem; border: 1px solid #dddddd; text-align: center; line-height: 0.46rem; font-size: 0.24rem; color: #999999; border-radius: 0.5rem; }
+.avatar-bottom{ padding-left: 0.26rem; padding-right: 0.26rem; box-sizing: border-box; margin-top: 0.18rem; }
+.avatar-bottom span{ font-size: 0.24rem; color: #999999; line-height: 0.24rem; }
+.avatar-bottom i{ display: inline-block; width: 0.02rem; height: 0.26rem; background: #d5d5d5; vertical-align: -0.04rem; margin-left: 0.13rem; margin-right: 0.13rem; }
+
+/* 博文内容介绍 */
+.atricle-box{ padding-left: 0.26rem; padding-right: 0.26rem; box-sizing: border-box; margin-top: 0.45rem; }
+.atricle-heade{ }
+.atricle-heade .fl{ width: 0.56rem; height: 0.56rem; }
+.atricle-heade .fl img{ display: block; width: 100%; height: 100%; }
+.atricle-heade .fr{ width: 5.1rem; }
+.atricle-heade .fr p{ font-size: 0.26rem; color: #666666; line-height: 0.36rem; letter-spacing: 0.02rem; }
+.graphic-box{ padding-bottom: 0.03rem; margin-top: 0.38rem; }
+.graphic-item{ box-sizing: border-box; }
+.graphic-img{ width: 5.88rem; height: 3.52rem; margin-bottom: 0.28rem; }
+.graphic-img img{ display: block; width: 100%; height: 100%; }
+.graphic-text{ margin-bottom: 0.44rem; }
+.graphic-text p{ font-size: 0.3rem; color: #2f2f2f; line-height: 0.42rem; letter-spacing: 0.5px; }
+.article-gap{ height: 0.1rem; width: 100%; background: #f2f2f2; }
+
+
+/* 底部 */
+.atricle-footer{ padding: 0.39rem 0.26rem 0.42rem 0.26rem; }
+.atricle-footer a{ display: block; font-size: 0.26rem; color: #666666; line-height: 0.34rem; }
+.atricle-footer a:first-child{ margin-bottom: 0.3rem; }
